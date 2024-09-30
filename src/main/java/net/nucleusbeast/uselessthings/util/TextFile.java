@@ -65,6 +65,7 @@ public class TextFile {
             myWriter.write("#Every line represents a random massage!\n");
             myWriter.write("\n");
             myWriter.write("Hello you there\n");
+            myWriter.write("Ethereal is the best!\n");
             myWriter.write("\n");
             myWriter.write("#This is how u get player name\n");
             myWriter.write("%player% is the best player ever\n");

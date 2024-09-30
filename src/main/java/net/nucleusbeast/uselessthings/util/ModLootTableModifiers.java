@@ -28,7 +28,7 @@ public class ModLootTableModifiers {
             if (ACACIA_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops .1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());
@@ -37,7 +37,7 @@ public class ModLootTableModifiers {
             if (AZALEA_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops 1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());
@@ -46,7 +46,7 @@ public class ModLootTableModifiers {
             if (BIRCH_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops 1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());
@@ -55,7 +55,7 @@ public class ModLootTableModifiers {
             if (DARK_OAK_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops 1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());
@@ -64,7 +64,7 @@ public class ModLootTableModifiers {
             if (JUNGLE_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops 1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());
@@ -73,7 +73,7 @@ public class ModLootTableModifiers {
             if (FLOWERTING_AZALEA_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops 1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());
@@ -82,7 +82,7 @@ public class ModLootTableModifiers {
             if (OAK_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops 1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());
@@ -91,7 +91,7 @@ public class ModLootTableModifiers {
             if (SPRUCE_LEAVES.equals(id)){
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.01f)) //drops 1% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) //drops 1% of the time
                         .with(ItemEntry.builder(ModItems.MAJESTIC_STICK))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
                 supplier.pool(poolBuilder.build());

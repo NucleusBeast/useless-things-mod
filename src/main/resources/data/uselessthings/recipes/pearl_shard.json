@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "uselessthings:nucleus_core"
+        }
+    ],
+    "result": {
+        "item": "uselessthings:pearl_shard",
+        "count": 8
+    }
+}

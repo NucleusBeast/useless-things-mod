@@ -14,7 +14,7 @@ import net.nucleusbeast.uselessthings.item.tools.ModShovelItem;
 public class ModItems {
 
     //Adding items:
-    public static final Item NUCLEUS_CORE = registerItem("nucleus_core", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item NUCLEUS_CORE = registerItem("useless_core", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item PEARL_SHARD = registerItem("pearl_shard", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item MAJESTIC_STICK = registerItem("majestic_stick", new MajesticStick(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item USELESS_INGOT = registerItem("useless_ingot", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
