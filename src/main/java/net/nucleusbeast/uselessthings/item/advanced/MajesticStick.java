@@ -30,7 +30,7 @@ public class MajesticStick extends Item {
                 int roll = rand.nextInt(message.size());
                 if (message.get(roll).contains("%player%")){
                     int index =  message.get(roll).indexOf("%");
-                    player.sendMessage(Text.of(message.get(roll).substring(0, index) + player.getDisplayName().asString() + message.get(roll).substring(index + 8)), false);
+                    player.sendMessage(Text.of(message.get(roll).substring(0, index) + player.getDisplayName().getString() + message.get(roll).substring(index + 8)), false);
                 }
                 else{
                     player.sendMessage(Text.of(message.get(roll)), false);
