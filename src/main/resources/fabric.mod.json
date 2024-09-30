@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "uselessthings",
+	"version": "${version}",
+
+	"name": "Useless Things",
+	"description": "This is an useless description! Tell everyone to download this mod!",
+	"authors": [
+		"NucleusBeast!"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/NucleusBeast",
+		"sources": "https://github.com/NucleusBeast/UselessThingsMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/uselessthings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nucleusbeast.uselessthings.UselessThings"
+		]
+	},
+	"mixins": [
+		"uselessthings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

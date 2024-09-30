@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=true": {"model": "uselessthings:block/simple_generator_active"},
+    "active=false": {"model": "uselessthings:block/simple_generator"}
+  }
+}
